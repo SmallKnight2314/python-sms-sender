@@ -6,7 +6,7 @@ from datetime import datetime
 
 # Router config (edit these)
 ROUTER_URL = 'http://192.168.1.1'  # Your router's IP
-ROUTER_PASSWORD = 'Ev9[9_kQiuYF'  # Router admin password
+ROUTER_PASSWORD = 'password'  # Router admin password
 
 # Folders for saving messages
 OUTBOX_DIR = 'outbox'
@@ -85,5 +85,6 @@ send_button.pack(pady=10)
 
 status_label = tk.Label(root, text="")
 status_label.pack()
+
 
 root.mainloop()
